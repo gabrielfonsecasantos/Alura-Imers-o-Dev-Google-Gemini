@@ -1,0 +1,170 @@
+[
+  {
+    "nome": "Athletico Paranaense",
+    "ano de fundação": 1924,
+    "estado": "Paraná",
+    "cidade": "Curitiba",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Escudo_Athletico_Paranaense_2019_-_preto_e_vermelho.svg/2048px-Escudo_Athletico_Paranaense_2019_-_preto_e_vermelho.svg.png"
+  },
+  {
+    "nome": "Atlético Goianiense",
+    "ano de fundação": 1937,
+    "estado": "Goiás",
+    "cidade": "Goiânia",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Atletico-GO-2023.png"
+  },
+  {
+    "nome": "Atlético Mineiro",
+    "ano de fundação": 1908,
+    "estado": "Minas Gerais",
+    "cidade": "Belo Horizonte",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/2048px-Atletico_mineiro_galo.png"
+  },
+  {
+    "nome": "Bahia",
+    "ano de fundação": 1931,
+    "estado": "Bahia",
+    "cidade": "Salvador",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Esporte_Clube_Bahia_logo.svg/2048px-Esporte_Clube_Bahia_logo.svg.png"
+  },
+  {
+    "nome": "Botafogo",
+    "ano de fundação": 1904,
+    "estado": "Rio de Janeiro",
+    "cidade": "Rio de Janeiro",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/1200px-Botafogo_de_Futebol_e_Regatas_logo.svg.png"
+  },
+  {
+    "nome": "Red Bull Bragantino",
+    "ano de fundação": 1928,
+    "estado": "São Paulo",
+    "cidade": "Bragança Paulista",
+    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/c1/Red_Bull_Bragantino_logo.svg/1200px-Red_Bull_Bragantino_logo.svg.png"
+  },
+  {
+    "nome": "Corinthians",
+    "ano de fundação": 1910,
+    "estado": "São Paulo",
+    "cidade": "São Paulo",
+    "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Sport_Club_Corinthians_Paulista_crest.svg/1200px-Sport_Club_Corinthians_Paulista_crest.svg.png"
+  },
+  {
+    "nome": "Criciúma",
+    "ano de fundação": 1947,
+    "estado": "Santa Catarina",
+    "cidade": "Criciúma",
+    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/1/1a/CriciumaECLogo.svg/1200px-CriciumaECLogo.svg.png"
+  },
+  {
+    "nome": "Cruzeiro",
+    "ano de fundação": 1921,
+    "estado": "Minas Gerais",
+    "cidade": "Belo Horizonte",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_logo.svg/2048px-Cruzeiro_Esporte_Clube_logo.svg.png"
+  },
+  {
+    "nome": "Cuiabá",
+    "ano de fundação": 2001,
+    "estado": "Mato Grosso",
+    "cidade": "Cuiabá",
+    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/c3/Cuiab%C3%A1_Esporte_Clube_escudo.svg/1200px-Cuiab%C3%A1_Esporte_Clube_escudo.svg.png"
+  },
+  {
+    "nome": "Flamengo",
+    "ano de fundação": 1895,
+    "estado": "Rio de Janeiro",
+    "cidade": "Rio de Janeiro",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flamengo-RJ_%28BRA%29.svg/1200px-Flamengo-RJ_%28BRA%29.svg.png"
+  },
+  {
+    "nome": "Fluminense",
+    "ano de fundação": 1902,
+    "estado": "Rio de Janeiro",
+    "cidade": "Rio de Janeiro",
+    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a3/Fluminense_FC_escudo.svg/1200px-Fluminense_FC_escudo.svg.png"
+  },
+  {
+    "nome": "Fortaleza",
+    "ano de fundação": 1918,
+    "estado": "Ceará",
+    "cidade": "Fortaleza",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/FortalezaEC2021.svg/1200px-FortalezaEC2021.svg.png"
+  },
+  {
+    "nome": "Grêmio",
+    "ano de fundação": 1903,
+    "estado": "Rio Grande do Sul",
+    "cidade": "Porto Alegre",
+    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/c1/Gremio.svg/1200px-Gremio.svg.png"
+  },
+  {
+    "nome": "Internacional",
+    "ano de fundação": 1909,
+    "estado": "Rio Grande do Sul",
+    "cidade": "Porto Alegre",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Escudo_do_Sport_Club_Internacional.svg/1200px-Escudo_do_Sport_Club_Internacional.svg.png"
+  },
+  {
+    "nome": "Juventude",
+    "ano de fundação": 1913,
+    "estado": "Rio Grande do Sul",
+    "cidade": "Caxias do Sul",
+    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/51/Esporte_Clube_Juventude_logo.svg/1200px-Esporte_Clube_Juventude_logo.svg.png"
+  },
+  {
+    "nome": "Palmeiras",
+    "ano de fundação": 1914,
+    "estado": "São Paulo",
+    "cidade": "São Paulo",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/1200px-Palmeiras_logo.svg.png"
+  },
+  {
+    "nome": "São Paulo",
+    "ano de fundação": 1930,
+    "estado": "São Paulo",
+    "cidade": "São Paulo",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Sao_Paulo_FC_logo.svg/1200px-Sao_Paulo_FC_logo.svg.png"
+  },
+  {
+    "nome": "Vasco da Gama",
+    "ano de fundação": 1898,
+    "estado": "Rio de Janeiro",
+    "cidade": "Rio de Janeiro",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/C.R._Vasco_da_Gama_logo.svg/1200px-C.R._Vasco_da_Gama_logo.svg.png"
+  },
+  {
+    "nome": "Vitória",
+    "ano de fundação": 1899,
+    "estado": "Bahia",
+    "cidade": "Salvador",
+    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/EC_Vit%C3%B3ria_escudo.svg/1200px-EC_Vit%C3%B3ria_escudo.svg.png"
+  },
+  {
+    "nome": "Santos",
+    "ano de fundação": 1912,
+    "estado": "São Paulo",
+    "cidade": "Santos",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Futebol_Clube_logo.svg/1200px-Santos_Futebol_Clube_logo.svg.png"
+  },
+  {
+    "nome": "Mirassol",
+    "ano de fundação": 1925,
+    "estado": "São Paulo",
+    "cidade": "Mirassol",
+    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mirassol_Futebol_Clube_-_Escudo.svg/1200px-Mirassol_Futebol_Clube_-_Escudo.svg.png"
+  },
+  {
+    "nome": "Sport",
+    "ano de fundação": 1905,
+    "estado": "Pernambuco",
+    "cidade": "Recife",
+    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/53/Sport_Club_do_Recife_escudo.svg/1200px-Sport_Club_do_Recife_escudo.svg.png"
+  },
+  {
+    "nome": "Ceará",
+    "ano de fundação": 1914,
+    "estado": "Ceará",
+    "cidade": "Fortaleza",
+    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/3a/Cear%C3%A1_Sporting_Club_logo.svg/1200px-Cear%C3%A1_Sporting_Club_logo.svg.png"
+  }
+]
