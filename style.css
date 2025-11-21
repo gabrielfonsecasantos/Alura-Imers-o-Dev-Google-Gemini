@@ -188,6 +188,13 @@ article a:hover {
   color: var(--primary-color); /* Muda a cor do link ao passar o mouse */
 }
 
+#escudo {
+  width: 50px; /* Largura do escudo */
+  height: 50px; /* Altura do escudo */
+  object-fit: contain; /* Mantém a proporção da imagem */
+  margin-right: 1rem; /* Margem à direita */
+}
+
 @media (max-width: 768px) {
   header {
     /* Estilos para telas com largura máxima de 768px */
