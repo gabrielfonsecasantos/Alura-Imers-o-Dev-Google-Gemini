@@ -1,46 +1,73 @@
-let cardContainer = document.querySelector(".card-container");
-let data = [];
+document.addEventListener("DOMContentLoaded", () => {
+  const searchInput = document.getElementById("search-input");
+  const searchButton = document.getElementById("botao-busca");
+  const cardContainer = document.querySelector(".card-container");
+  const initialCard = document.getElementById("initial-card");
 
-// 1. Função que carrega os dados do JSON e configura os eventos
-async function inicializar() {
-  let response = await fetch("clubs.json");
-  data = await response.json();
-  renderizarCards(data); // Mostra todos os clubes inicialmente
+  let clubsData = [];
+
+  // 1. Carrega os dados dos clubes do arquivo JSON assim que a página estiver pronta.
+  //    Os dados ficam armazenados na variável 'clubsData', mas nada é exibido na tela.
+  fetch("clubs.json")
+    .then((response) => response.json())
+    .then((data) => {
+      clubsData = data;
+    })
+    .catch((error) =>
+      console.error("Erro ao carregar os dados dos clubes:", error)
+    );
+
+  // Função para exibir os clubes filtrados
+  const displayClubs = (clubs) => {
+    cardContainer.innerHTML = ""; // Limpa resultados anteriores
+
+    if (searchInput.value.trim() === "") {
+      initialCard.style.display = "block";
+      return;
+    }
+
+    initialCard.style.display = "none";
+
+    if (clubs.length === 0 && searchInput.value.trim() !== "") {
+      cardContainer.innerHTML =
+        "<p>Nenhum time encontrado. Ta precisando melhorar!</p>";
+      return;
+    }
+    if (clubs.length > 1) {
+      const info = document.createElement("p");
+      info.textContent = `Foram encontrados ${clubs.length} times. Será que você digitou o nome corretamente?`;
+      cardContainer.appendChild(info);
+    } else if (clubs.length === 1) {
+      const info = document.createElement("p");
+      info.textContent = `O clube existe! Pode cobrar sua pontuação no jogo!`;
+      cardContainer.appendChild(info);
+    }
+
+    clubs.forEach((club) => {
+      const card = document.createElement("article");
+      card.className = "card";
+      card.innerHTML = `
+          <h2>${club.nome}</h2>
+          <p><strong>Liga:</strong> ${club.liga}</p>
+          <p><strong>País:</strong> ${club.pais}</p>
+        `;
+      cardContainer.appendChild(card);
+    });
+  };
+
+  // Função que realiza a busca
+  const performSearch = () => {
+    const searchTerm = searchInput.value.toLowerCase().trim();
+
+    // 2. Filtra os clubes com base no termo pesquisado.
+    const filteredClubs = clubsData.filter((club) =>
+      club.nome.toLowerCase().includes(searchTerm)
+    );
+
+    // 3. Exibe os clubes que correspondem à busca.
+    displayClubs(filteredClubs);
+  };
 
   // Adiciona o evento de clique ao botão de busca
-  const searchButton = document.getElementById("botao-busca");
-  searchButton.addEventListener("click", buscarClube);
-}
-
-// 2. Função que filtra os clubes com base no input
-function buscarClube() {
-  const searchInput = document.getElementById("search-input");
-  const searchTerm = searchInput.value.toLowerCase();
-
-  const clubesFiltrados = data.filter((clube) => {
-    // Verifica se o nome do clube (em minúsculas) inclui o termo buscado
-    return clube.nome.toLowerCase().includes(searchTerm);
-  });
-
-  renderizarCards(clubesFiltrados);
-}
-
-// 3. Função que exibe os cards na tela
-function renderizarCards(clubes) {
-  // Limpa o container antes de adicionar os novos cards
-  cardContainer.innerHTML = "";
-
-  clubes.forEach((element) => {
-    let article = document.createElement("article");
-    article.classList.add("card");
-    article.innerHTML = `
-      <img src="${element.escudo}" id="escudo" alt="Logo do ${element.nome}" />
-      <h2>${element.nome}</h2>
-      <p>Fundado em: ${element.fundacao}</p>
-    `;
-    cardContainer.appendChild(article);
-  });
-}
-
-// Inicia o processo quando a página carrega
-inicializar();
+  searchButton.addEventListener("click", performSearch);
+});

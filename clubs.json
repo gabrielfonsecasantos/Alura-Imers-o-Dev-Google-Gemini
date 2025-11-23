@@ -1,170 +1,167 @@
 [
   {
     "nome": "Athletico Paranaense",
-    "fundacao": 1924,
-    "estado": "Paraná",
-    "cidade": "Curitiba",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Escudo_Athletico_Paranaense_2019_-_preto_e_vermelho.svg/2048px-Escudo_Athletico_Paranaense_2019_-_preto_e_vermelho.svg.png"
+    "liga": "Brasileirão Série A",
+    "pais": "Brasil"
   },
   {
     "nome": "Atlético Goianiense",
-    "fundacao": 1937,
-    "estado": "Goiás",
-    "cidade": "Goiânia",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Atletico-GO-2023.png"
+    "liga": "Brasileirão Série A",
+    "pais": "Brasil"
   },
   {
     "nome": "Atlético Mineiro",
-    "fundacao": 1908,
-    "estado": "Minas Gerais",
-    "cidade": "Belo Horizonte",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/2048px-Atletico_mineiro_galo.png"
+    "liga": "Brasileirão Série A",
+    "pais": "Brasil"
   },
-  {
-    "nome": "Bahia",
-    "fundacao": 1931,
-    "estado": "Bahia",
-    "cidade": "Salvador",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Esporte_Clube_Bahia_logo.svg/2048px-Esporte_Clube_Bahia_logo.svg.png"
-  },
-  {
-    "nome": "Botafogo",
-    "fundacao": 1904,
-    "estado": "Rio de Janeiro",
-    "cidade": "Rio de Janeiro",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/1200px-Botafogo_de_Futebol_e_Regatas_logo.svg.png"
-  },
+  { "nome": "Bahia", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Botafogo", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Corinthians", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Cruzeiro", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Cuiabá", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Flamengo", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Fluminense", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Fortaleza", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Grêmio", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Internacional", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Juventude", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Palmeiras", "liga": "Brasileirão Série A", "pais": "Brasil" },
   {
     "nome": "Red Bull Bragantino",
-    "fundacao": 1928,
-    "estado": "São Paulo",
-    "cidade": "Bragança Paulista",
-    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/c1/Red_Bull_Bragantino_logo.svg/1200px-Red_Bull_Bragantino_logo.svg.png"
+    "liga": "Brasileirão Série A",
+    "pais": "Brasil"
+  },
+  { "nome": "São Paulo", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Vasco da Gama", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Vitória", "liga": "Brasileirão Série A", "pais": "Brasil" },
+  { "nome": "Santos", "liga": "Brasileirão Série A", "pais": "Brasil" },
+
+  { "nome": "Paris Saint-Germain", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "AS Monaco", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Olympique Lyonnais", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Olympique de Marseille", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Lille OSC", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "FC Nantes", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "OGC Nice", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Stade Rennais", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "RC Lens", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Strasbourg", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Lorient", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Paris FC", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Metz", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Auxerre", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Angers SCO", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Brest", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Le Havre", "liga": "Ligue 1", "pais": "França" },
+  { "nome": "Toulouse FC", "liga": "Ligue 1", "pais": "França" },
+
+  { "nome": "Arsenal", "liga": "Premier League", "pais": "Inglaterra" },
+  { "nome": "Aston Villa", "liga": "Premier League", "pais": "Inglaterra" },
+  { "nome": "AFC Bournemouth", "liga": "Premier League", "pais": "Inglaterra" },
+  { "nome": "Brentford", "liga": "Premier League", "pais": "Inglaterra" },
+  {
+    "nome": "Brighton & Hove Albion",
+    "liga": "Premier League",
+    "pais": "Inglaterra"
+  },
+  { "nome": "Burnley", "liga": "Premier League", "pais": "Inglaterra" },
+  { "nome": "Chelsea", "liga": "Premier League", "pais": "Inglaterra" },
+  { "nome": "Crystal Palace", "liga": "Premier League", "pais": "Inglaterra" },
+  { "nome": "Everton", "liga": "Premier League", "pais": "Inglaterra" },
+  { "nome": "Fulham", "liga": "Premier League", "pais": "Inglaterra" },
+  { "nome": "Leeds United", "liga": "Premier League", "pais": "Inglaterra" },
+  { "nome": "Liverpool", "liga": "Premier League", "pais": "Inglaterra" },
+  { "nome": "Manchester City", "liga": "Premier League", "pais": "Inglaterra" },
+  {
+    "nome": "Manchester United",
+    "liga": "Premier League",
+    "pais": "Inglaterra"
   },
   {
-    "nome": "Corinthians",
-    "fundacao": 1910,
-    "estado": "São Paulo",
-    "cidade": "São Paulo",
-    "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Sport_Club_Corinthians_Paulista_crest.svg/1200px-Sport_Club_Corinthians_Paulista_crest.svg.png"
+    "nome": "Newcastle United",
+    "liga": "Premier League",
+    "pais": "Inglaterra"
   },
   {
-    "nome": "Criciúma",
-    "fundacao": 1947,
-    "estado": "Santa Catarina",
-    "cidade": "Criciúma",
-    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/1/1a/CriciumaECLogo.svg/1200px-CriciumaECLogo.svg.png"
+    "nome": "Nottingham Forest",
+    "liga": "Premier League",
+    "pais": "Inglaterra"
   },
+  { "nome": "Sunderland", "liga": "Premier League", "pais": "Inglaterra" },
   {
-    "nome": "Cruzeiro",
-    "fundacao": 1921,
-    "estado": "Minas Gerais",
-    "cidade": "Belo Horizonte",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_logo.svg/2048px-Cruzeiro_Esporte_Clube_logo.svg.png"
+    "nome": "Tottenham Hotspur",
+    "liga": "Premier League",
+    "pais": "Inglaterra"
   },
+  { "nome": "West Ham United", "liga": "Premier League", "pais": "Inglaterra" },
   {
-    "nome": "Cuiabá",
-    "fundacao": 2001,
-    "estado": "Mato Grosso",
-    "cidade": "Cuiabá",
-    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/c3/Cuiab%C3%A1_Esporte_Clube_escudo.svg/1200px-Cuiab%C3%A1_Esporte_Clube_escudo.svg.png"
+    "nome": "Wolverhampton Wanderers",
+    "liga": "Premier League",
+    "pais": "Inglaterra"
   },
+
+  { "nome": "FC Augsburg", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "Union Berlin", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "Werder Bremen", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "Borussia Dortmund", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "Eintracht Frankfurt", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "SC Freiburg", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "Hamburger SV", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "1. FC Heidenheim", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "TSG Hoffenheim", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "1. FC Köln", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "RB Leipzig", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "Bayer Leverkusen", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "1. FSV Mainz 05", "liga": "Bundesliga", "pais": "Alemanha" },
   {
-    "nome": "Flamengo",
-    "fundacao": 1895,
-    "estado": "Rio de Janeiro",
-    "cidade": "Rio de Janeiro",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flamengo-RJ_%28BRA%29.svg/1200px-Flamengo-RJ_%28BRA%29.svg.png"
+    "nome": "Borussia Mönchengladbach",
+    "liga": "Bundesliga",
+    "pais": "Alemanha"
   },
-  {
-    "nome": "Fluminense",
-    "fundacao": 1902,
-    "estado": "Rio de Janeiro",
-    "cidade": "Rio de Janeiro",
-    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a3/Fluminense_FC_escudo.svg/1200px-Fluminense_FC_escudo.svg.png"
-  },
-  {
-    "nome": "Fortaleza",
-    "fundacao": 1918,
-    "estado": "Ceará",
-    "cidade": "Fortaleza",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/FortalezaEC2021.svg/1200px-FortalezaEC2021.svg.png"
-  },
-  {
-    "nome": "Grêmio",
-    "fundacao": 1903,
-    "estado": "Rio Grande do Sul",
-    "cidade": "Porto Alegre",
-    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/c1/Gremio.svg/1200px-Gremio.svg.png"
-  },
-  {
-    "nome": "Internacional",
-    "fundacao": 1909,
-    "estado": "Rio Grande do Sul",
-    "cidade": "Porto Alegre",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Escudo_do_Sport_Club_Internacional.svg/1200px-Escudo_do_Sport_Club_Internacional.svg.png"
-  },
-  {
-    "nome": "Juventude",
-    "fundacao": 1913,
-    "estado": "Rio Grande do Sul",
-    "cidade": "Caxias do Sul",
-    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/51/Esporte_Clube_Juventude_logo.svg/1200px-Esporte_Clube_Juventude_logo.svg.png"
-  },
-  {
-    "nome": "Palmeiras",
-    "fundacao": 1914,
-    "estado": "São Paulo",
-    "cidade": "São Paulo",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/1200px-Palmeiras_logo.svg.png"
-  },
-  {
-    "nome": "São Paulo",
-    "fundacao": 1930,
-    "estado": "São Paulo",
-    "cidade": "São Paulo",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Sao_Paulo_FC_logo.svg/1200px-Sao_Paulo_FC_logo.svg.png"
-  },
-  {
-    "nome": "Vasco da Gama",
-    "fundacao": 1898,
-    "estado": "Rio de Janeiro",
-    "cidade": "Rio de Janeiro",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/C.R._Vasco_da_Gama_logo.svg/1200px-C.R._Vasco_da_Gama_logo.svg.png"
-  },
-  {
-    "nome": "Vitória",
-    "fundacao": 1899,
-    "estado": "Bahia",
-    "cidade": "Salvador",
-    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/EC_Vit%C3%B3ria_escudo.svg/1200px-EC_Vit%C3%B3ria_escudo.svg.png"
-  },
-  {
-    "nome": "Santos",
-    "fundacao": 1912,
-    "estado": "São Paulo",
-    "cidade": "Santos",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Futebol_Clube_logo.svg/1200px-Santos_Futebol_Clube_logo.svg.png"
-  },
-  {
-    "nome": "Mirassol",
-    "fundacao": 1925,
-    "estado": "São Paulo",
-    "cidade": "Mirassol",
-    "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mirassol_Futebol_Clube_-_Escudo.svg/1200px-Mirassol_Futebol_Clube_-_Escudo.svg.png"
-  },
-  {
-    "nome": "Sport",
-    "fundacao": 1905,
-    "estado": "Pernambuco",
-    "cidade": "Recife",
-    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/53/Sport_Club_do_Recife_escudo.svg/1200px-Sport_Club_do_Recife_escudo.svg.png"
-  },
-  {
-    "nome": "Ceará",
-    "fundacao": 1914,
-    "estado": "Ceará",
-    "cidade": "Fortaleza",
-    "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/3a/Cear%C3%A1_Sporting_Club_logo.svg/1200px-Cear%C3%A1_Sporting_Club_logo.svg.png"
-  }
+  { "nome": "Bayern Munich", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "FC St. Pauli", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "VfB Stuttgart", "liga": "Bundesliga", "pais": "Alemanha" },
+  { "nome": "VfL Wolfsburg", "liga": "Bundesliga", "pais": "Alemanha" },
+
+  { "nome": "Real Madrid", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Barcelona", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Atlético de Madrid", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Athletic Bilbao", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Real Sociedad", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Villarreal", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Real Betis", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Sevilla", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Valencia", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Getafe", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Celta de Vigo", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Las Palmas", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Girona", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Rayo Vallecano", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Mallorca", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Osasuna", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Alavés", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Leganés", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Real Valladolid", "liga": "La Liga", "pais": "Espanha" },
+  { "nome": "Espanyol", "liga": "La Liga", "pais": "Espanha" },
+
+  { "nome": "Atalanta", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Bologna", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Cagliari", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Como", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Empoli", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Fiorentina", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Genoa", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Hellas Verona", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Inter de Milão", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Juventus", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Lazio", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Lecce", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Milan", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Monza", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Napoli", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Parma", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Roma", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Torino", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Udinese", "liga": "Serie A", "pais": "Itália" },
+  { "nome": "Venezia", "liga": "Serie A", "pais": "Itália" }
 ]
